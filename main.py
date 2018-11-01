@@ -17,7 +17,7 @@ def craftdestiny():
     os.system("echo  'Server = https://miroir.craftdestiny.ml/archlinux-repo/' >> /etc/pacman.conf")
     os.system("sudo pacman -Sy")
     ActivateCraftDestiny.config(state=DISABLED)
-    showerror('Fini', "Le Dépots CraftDestiny à bien été ajouter")
+    showerror('Fini', "Le dépôt CraftDestiny à bien été ajouté")
 
 def minzord():
     os.system("echo  '' >> /etc/pacman.conf")
@@ -26,7 +26,7 @@ def minzord():
     os.system("echo  'Server = https://minzordos.000webhostapp.com/Repo/' >> /etc/pacman.conf")
     os.system("sudo pacman -Sy")    
     ActivateMinzord.config(state=DISABLED)
-    showerror('Fini', "Le Dépots Minzord à bien été ajouter")
+    showerror('Fini', "Le dépot Minzord à bien été ajouté")
 
 windows = Tk()
 
@@ -51,8 +51,8 @@ canvas.create_image(0, 0, image=logo, anchor=NW)
 
 labelfont = ('times', 14, 'bold')
 
-widget1 = Label(windows, text="\nDépots CraftDestiny")
-widget2 = Label(windows, text="Dépots Minzord")
+widget1 = Label(windows, text="\nDépôt CraftDestiny")
+widget2 = Label(windows, text="Dépôt Minzord")
 
 ActivateCraftDestiny = Button(windows, text='ACTIVER', height=2, width=30, command=craftdestiny)
 ActivateCraftDestiny.pack()
@@ -70,7 +70,7 @@ widget2.config(font=labelfont)
 widget2.config(fg='green')
 widget2.pack(pady=75)
 
-showerror('Bonjour', "Hello, everybody les enfants, salut c'est Sebastien on Youtube et 3w.actualia.fr. \nJe ne cesserai de vous le repetter sans m'en lasser et vous le savez.")
+showerror('Bonjour', "Hello, everybody les enfants, salut c'est Sébastien on Youtube et 3w.actualia.fr. \nJe ne cesserai de vous le répéter sans m'en lasser et vous le savez.")
 
 
 
