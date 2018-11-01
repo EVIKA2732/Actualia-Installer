@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Actualia-Installer
+Exec=sudo python /usr/bin/actualia/main.py 
+Comment=
+Terminal=true
+Type=Application
+Icon=actualia
+Name[fr_FR]=Actualia Installer
