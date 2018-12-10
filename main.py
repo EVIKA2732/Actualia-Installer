@@ -70,7 +70,7 @@ widget2.config(font=labelfont)
 widget2.config(fg='green')
 widget2.pack(pady=75)
 
-showerror('Bonjour', "Hello, everybody les enfants, salut c'est Sébastien on Youtube et 3w.actualia.fr. \nJe ne cesserai de vous le répéter sans m'en lasser et vous le savez.")
+print("'Bonjour', "Hello, everybody les enfants, salut c'est Sébastien on Youtube et 3w.actualia.fr. \nJe ne cesserai de vous le répéter sans m'en lasser et vous le savez.")
 
 
 
